@@ -12,7 +12,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Check if the user has signed up and credentials match
     if (email === storedEmail && password === storedPassword) {
         alert('Login successful!');
-        window.location.href = "../AMS Panel/index.html";
+        window.location.href = "/MiniProject-1A/AMS Panel/index.html";
     } else {
         alert('Please Sign up First or Check your Credentials.');
     }
