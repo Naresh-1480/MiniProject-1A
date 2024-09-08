@@ -13,5 +13,5 @@ document.querySelector('.submit-btn').addEventListener('click', function(event) 
 
     // Optionally, show a message or redirect
     alert('Signup successful! You can now log in.');
-    window.location.href = 'MiniProject-1A/Login/index.html'; // Redirect to login page
+    window.location.href = '../Login/index.html'; // Redirect to login page
 });
